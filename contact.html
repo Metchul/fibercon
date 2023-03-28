@@ -5,11 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Contact Us - Fibercon</title>
+  <script src="mainScript.js"></script>
 </head>
 <body>
     <div class="login-button-container">
-        <button class="button-22" role="button">Staff Login</button>
+        <button class="button-22" role="button" id="login-button">Staff Login</button>
     </div>
+    <!-- This is the login form -->
+  <div class="login-form-container" id="login-form-container">
+    <div class="login-form-triangle"></div>
+    <form class="login-form" id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button class="button-22" id="submit-login">Log In</button>
+    </form>
+  </div>
   <!-- Include the same header and footer as in index.html -->
   <header>
     <div class="logo-container">
