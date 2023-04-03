@@ -422,6 +422,36 @@ main h4 {
 }
 
 
+/* Staff Page Style */
+.divider {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(111, 111, 111), rgba(0, 0, 0, 0));
+  height: 1px;
+  width: 100%;
+}
+
+
+.inventory-app-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.inventory-app {
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 700px) {
   .services-items {
     grid-template-columns: repeat(1, 1fr);

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="application-style.css">
+      </head>
+  </head>
+  <body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="menu-title">
+            <img src="https://cdn4.iconfinder.com/data/icons/user-interface-937/24/2.home_page_house_button_interface-512.png" class="home-icon-img"/>
+            <a class="app-title" href="#">
+                <span>Home</span>
+            </a>
+            </div>
+            <div class="menu">
+                <div class="menu-section">
+                    <div class="menu-item-wrapper">
+                        <a class="menu-item" href="#">
+                            <span>All Inventory</span>
+                        </a>
+                    </div>
+                    <div class="menu-item-wrapper">
+                        <a class="menu-item" href="#">
+                            <span>Search</span>
+                        </a>
+                    </div>
+                    <div class="menu-item-wrapper">
+                        <a class="menu-item" href="#">
+                            <span>Summary</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-section">
+                    <div class="menu-item-wrapper">
+                        <a class="menu-item" href="#">
+                            <span>Settings</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-area">
+            <div class="table-area">
+                <table id="inventory-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

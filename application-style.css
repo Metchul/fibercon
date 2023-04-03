@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 700px;
+    width: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+    height: 100%;
+    overflow: hidden;
+    color: #4a5568;
+    background-color: #f7fafc;
+    border-radius: 0.25rem;
+}
+
+.main-area {
+    flex: 1;
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    margin-top: 72px;
+    padding-left: 10px;
+}
+
+.home-icon-img {
+    width:  30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.menu-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+    text-decoration: none;
+    color:black 
+}
+
+.app-title span {
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.menu {
+    width: 100%;
+    padding: 0.5rem;
+    height: 100vh;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0.75rem;
+    border-top: 1px solid #d2d6dc;
+}
+
+.menu-item-wrapper {
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 0.5em;
+}
+
+.menu-item-wrapper:hover,
+.menu-item-wrapper.active {
+    background-color: #e2e8f0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    padding: 0.75rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-item span {
+    margin-left: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+
+
+
+/* Table */
+
+#inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#inventory-table  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#inventory-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#inventory-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#inventory-table tr:hover {
+    background-color: #ddd;
+}
