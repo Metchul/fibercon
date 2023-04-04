@@ -3,17 +3,17 @@ body {
 }
 
 .container {
-    display: flex;
-    height: 700px;
+    display: grid;
+    grid-template-columns: 10rem 1fr;
     width: 100%;
+    height: 100vh;
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 10rem;
-    height: 100%;
+    width: 100%;
     overflow: hidden;
     color: #4a5568;
     background-color: #f7fafc;
@@ -23,10 +23,10 @@ body {
 .main-area {
     flex: 1;
     background: rgb(255, 255, 255);
-    height: 100vh;
-    margin-top: 72px;
     padding-left: 10px;
+    padding-top: 75px;
 }
+
 
 .home-icon-img {
     width:  30px;
@@ -59,7 +59,7 @@ body {
 .menu {
     width: 100%;
     padding: 0.5rem;
-    height: 100vh;
+    height: 100%;
 }
 
 .menu-section {
